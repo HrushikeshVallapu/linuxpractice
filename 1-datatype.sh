@@ -5,3 +5,4 @@ number2=200
 
 timestamp=$(date)
 echo "$timestamp"
+sum=$(($number1+$number2))
