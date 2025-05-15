@@ -1,6 +1,6 @@
 #!/bin/bash
-person1=hrushikesh
-person2=nitish
+person1=$1
+person2=$2
 
 echo "$person1: eh ra $person2, nuv ah roju poola kundi enduku thannav ra?"
 echo "$person2: nenu..."
