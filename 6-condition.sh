@@ -10,7 +10,7 @@ else
     echo "preparing to start the installation"
 fi
 
-dnf install xrctjvykbjkn -y
+dnf install mysql -y
 
 if [ $? -eq 0]
 then 
