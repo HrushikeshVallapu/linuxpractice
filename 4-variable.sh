@@ -5,5 +5,5 @@
  echo "current working dirctry :$PWD"
  echo "current user : $USER"
  echo "PID of current script :$$"
- sleep 5 &
+ sleep 10 &
  echo "PID of last command ran : $!"
