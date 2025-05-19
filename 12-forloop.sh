@@ -38,7 +38,7 @@ do
     if [ $? -ne 0 ]
     then 
         dnf install $package -y &>>$log_file
-        validate $? "mysql"
+        validate $? "$package"
     else
         echo -e "package $y $package already exist $n" | tee -a $log_file
     fi
