@@ -32,7 +32,8 @@ validate(){
 }
 
 for package in ${packages[@]}
-#for package in $@
+#for package in $@ --> this is to send the input in arguments
+
 do 
     dnf list installed $package &>>$log_file
     if [ $? -ne 0 ]
